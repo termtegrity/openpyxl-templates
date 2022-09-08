@@ -1,8 +1,8 @@
 from copy import copy
 from datetime import date, datetime, timedelta, time
-from types import FunctionType
 
-from collections import Iterable, defaultdict
+from collections import defaultdict
+from collections.abc import Iterable
 from openpyxl.cell import WriteOnlyCell
 from openpyxl.formatting import Rule
 from openpyxl.styles import NamedStyle
