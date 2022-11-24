@@ -186,7 +186,7 @@ class TableSheet(TemplatedWorksheet):
         self._row_class = None
 
         if self.row_styles:
-	    column.add_row_style(*self.row_styles)
+            column.add_row_style(*self.row_styles)
 
         # Suffix duplicated column headers
         self._column_headers_counter[column.header] += 1
